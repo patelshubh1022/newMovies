@@ -35,7 +35,7 @@
     "@headlessui/react": "^1.7.19",
     "@ladjs/country-language": "^1.0.3",
     "@marsidev/react-turnstile": "^0.7.2",
-    "@movie-web/providers": "github:sussy-code/providers",
+    "@movie-web/providers": "^2.4.13",
     "@noble/hashes": "^1.5.0",
     "@plasmohq/messaging": "^0.6.2",
     "@react-spring/web": "^9.7.4",
@@ -116,9 +116,11 @@
     "glob": "^10.4.5",
     "handlebars": "^4.7.8",
     "jsdom": "^23.2.0",
+    "patch-package": "^8.0.0",
     "postcss": "^8.4.47",
     "postcss-rtl": "^2.0.0",
     "postcss-rtlcss": "^4.0.9",
+    "postinstall-postinstall": "^2.1.0",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.5.14",
     "rollup-plugin-visualizer": "^5.12.0",
@@ -134,6 +136,9 @@
     "vite-plugin-static-copy": "^1.0.6",
     "vitest": "^1.6.0",
     "workbox-window": "^7.1.0"
+  },
+  "scripts": {
+    "postinstall": "patch-package"
   },
   "pnpm": {
     "overrides": {
