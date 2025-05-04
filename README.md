@@ -52,4 +52,4 @@ git push  # Push to YOUR repository
 
 
 ## Contact Me
-**Email:** *[dev@sudo-flix.lol](mailto:dev@sudo-flix.lol)* 
+No need to do that
